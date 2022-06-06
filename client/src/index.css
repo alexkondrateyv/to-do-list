@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+#root {
+    height: 100%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+    margin:0;
+    padding:0;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    -webkit-animation: 10s linear 0s normal none infinite animate;
+    -moz-animation: 10s linear 0s normal none infinite animate;
+    -o-animation: 10s linear 0s normal none infinite animate;
+    animation: 10s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+@-moz-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+@-ms-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+@-o-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+@keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
