@@ -8,7 +8,7 @@ let todos = [
     },
     {
         id: uuidv4(),
-        completed: false,
+        completed: true,
         value: 'Complete server part'
     },
     {
